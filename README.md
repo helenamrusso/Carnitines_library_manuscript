@@ -7,10 +7,10 @@ This repository contains all data and scripts associated with the manuscript **"
 ## Repository Contents
 
 ### `Figures/`
-This folder contains the R scripts used to generate all figures and supplementary figures in the manuscript, along with the input tables and source data for each of them.
+This folder contains the scripts used to generate all figures and supplementary figures in the manuscript, along with the input tables and source data for each of them.
 
 ### `Data_processing_MZmine/`
-This folder contains all MZmine batch files used to pre-process the metabolomics data discussed in this manuscript. All output files (feature quantification table, CSV; MS/MS spectra, MGF) used as input for Feature-Based Molecular Networking (FBMN) via GNPS2 are also available here.
+This folder contains all MZmine batch files used to pre-process the metabolomics data discussed in this manuscript. 
 
 ### `Supplementary Tables/`
 This folder contains all supplementary tables referenced in the manuscript, provided as .csv files.

@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?><batch mzmine_version="4.7.29">
+    <batchstep method="io.github.mzmine.modules.io.import_rawdata_all.AllSpectralDataImportModule" module_name="Import MS data" parameter_version="1">
+        <parameter name="File names">
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_001_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_002_IlealCont_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_003_IlealCont_663_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_004_IlealCont_134_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_005_IlealCont_157_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_006_IlealCont_364_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_007_IlealCont_456_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_008_IlealCont_640_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_009_IlealCont_387_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_010_IlealCont_249_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_011_IlealCont_601_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_012_IlealCont_226_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_013_IlealCont_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_014_IlealCont_65_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_015_IlealCont_19_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_016_IlealCont_479_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_017_IlealCont_203_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_018_IlealCont_42_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_019_IlealCont_548_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_020_IlealCont_180_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_021_IlealCont_571_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_022_IlealCont_433_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_023_IlealCont_318_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_024_IlealCont_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_025_IlealCont_502_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_026_IlealCont_272_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_027_IlealCont_295_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_028_IlealCont_88_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_029_IlealCont_341_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_030_IlealCont_525_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_032_IlealCont_594_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_033_IlealCont_111_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_034_IlealCont_401_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_035_IlealCont_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_036_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_037_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_037_Blank_20240910120422.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_037_Blank_20240910130607.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_037_Blank_20240911095843.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_038_CecalConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_039_CecalConts_527_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_040_CecalConts_205_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_041_CecalConts_21_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_042_CecalConts_182_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_043_CecalConts_435_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_044_CecalConts_67_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_045_CecalConts_136_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_046_CecalConts_665_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_047_CecalConts_481_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_048_CecalConts_90_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_049_CecalConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_050_CecalConts_550_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_051_CecalConts_113_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_052_CecalConts_573_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_053_CecalConts_686_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_054_CecalConts_403_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_055_CecalConts_343_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_056_CecalConts_389_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_057_CecalConts_642_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_058_CecalConts_504_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_059_CecalConts_458_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_060_CecalConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_061_CecalConts_44_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_062_CecalConts_159_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_063_CecalConts_274_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_064_CecalConts_603_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_065_CecalConts_228_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_066_CecalConts_297_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_067_CecalConts_366_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_068_CecalConts_320_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_069_CecalConts_596_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_071_CecalConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_072_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_073_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_073_Blank_20240912111708.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_074_Liver_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_075_Liver_7_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_076_Liver_513_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_077_Liver_536_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_078_Liver_444_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_079_Liver_352_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_080_Liver_582_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_081_Liver_559_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_082_Liver_237_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_083_Liver_651_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_084_Liver_214_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_085_Liver_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_086_Liver_283_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_087_Liver_99_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_088_Liver_122_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_089_Liver_30_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_090_Liver_53_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_091_Liver_421_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_092_Liver_306_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_093_Liver_412_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_094_Liver_329_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_095_Liver_672_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_096_Liver_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_097_Liver_375_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_097_Liver_375_T20_20240912174534.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_098_Liver_191_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_099_Liver_612_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_100_Liver_76_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_101_Liver_467_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_102_Liver_145_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_103_Liver_168_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_104_Liver_260_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_105_Liver_490_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_106_Liver_628_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_107_Liver_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_108_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_109_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_110_Feces_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_111_Feces_515_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_112_Feces_492_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_113_Feces_9_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_114_Feces_147_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_115_Feces_262_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_116_Feces_630_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_117_Feces_101_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_118_Feces_354_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_119_Feces_308_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_120_Feces_469_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_121_Feces_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_122_Feces_32_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_123_Feces_239_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_124_Feces_614_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_125_Feces_285_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_126_Feces_538_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_127_Feces_561_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_128_Feces_446_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_129_Feces_653_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_130_Feces_377_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_131_Feces_170_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_132_Feces_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_133_Feces_674_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_134_Feces_124_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_135_Feces_55_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_136_Feces_423_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_137_Feces_78_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_138_Feces_331_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_139_Feces_584_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_140_Feces_193_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_141_Feces_414_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_142_Feces_216_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_143_Feces_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_144_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_145_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_146_JejunumConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_147_JejunumConts_546_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_148_JejunumConts_63_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_149_JejunumConts_86_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_150_JejunumConts_293_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_151_JejunumConts_661_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_152_JejunumConts_155_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_153_JejunumConts_569_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_154_JejunumConts_109_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_156_JejunumConts_523_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_157_JejunumConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_159_JejunumConts_132_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_160_JejunumConts_362_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_161_JejunumConts_270_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_162_JejunumConts_399_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_163_JejunumConts_385_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_164_JejunumConts_201_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_165_JejunumConts_40_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_166_JejunumConts_682_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_167_JejunumConts_247_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_168_JejunumConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_169_JejunumConts_477_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_170_JejunumConts_316_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_171_JejunumConts_500_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_172_JejunumConts_339_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_173_JejunumConts_224_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_174_JejunumConts_454_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_175_JejunumConts_431_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_176_JejunumConts_638_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_178_JejunumConts_17_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_179_JejunumConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_180_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_181_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_182_Blood_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_183_Blood_622_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_184_Blood_645_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_185_Blood_346_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_186_Blood_208_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_187_Blood_116_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_188_Blood_93_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_189_Blood_461_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_190_Blood_576_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_191_Blood_47_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_192_Blood_406_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_193_Blood_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_194_Blood_139_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_195_Blood_185_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_196_Blood_606_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_197_Blood_162_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_198_Blood_70_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_199_Blood_323_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_200_Blood_254_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_201_Blood_300_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_202_Blood_689_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_203_Blood_553_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_204_Blood_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_205_Blood_484_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_206_Blood_530_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_207_Blood_369_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_208_Blood_1_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_209_Blood_277_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_210_Blood_415_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_211_Blood_231_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_212_Blood_507_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_213_Blood_438_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_214_Blood_24_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_215_Blood_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_216_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_217_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_218_Braini_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_219_Brain_27_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_220_Brain_409_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_221_Brain_96_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_222_Brain_303_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_223_Brain_533_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_224_Brain_609_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_225_Brain_648_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_226_Brain_349_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_227_Brain_510_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_228_Brain_625_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_229_Braini_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_230_Brain_234_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_231_Brain_418_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_232_Brain_257_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_233_Brain_326_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_234_Brain_441_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_235_Brain_372_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_236_Brain_487_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_237_Brain_50_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_238_Brain_280_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_239_Brain_73_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_240_Braini_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_241_Brain_464_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_242_Brain_579_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_243_Brain_4_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_244_Brain_165_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_245_Brain_119_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_246_Brain_211_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_247_Brain_669_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_248_Brain_556_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_249_Brain_142_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_250_Brain_188_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_251_Braini_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_252_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_253_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_254_Cecum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_255_Cecum_572_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_256_Cecum_181_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_257_Cecum_641_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_258_Cecum_43_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_259_Cecum_402_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_260_Cecum_296_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_261_Cecum_595_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_262_Cecum_342_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_263_Cecum_526_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_264_Cecum_135_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_265_Cecum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_266_Cecum_158_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_267_Cecum_388_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_268_Cecum_273_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_269_Cecum_602_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_270_Cecum_319_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_271_Cecum_250_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_272_Cecum_365_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_273_Cecum_549_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_274_Cecum_480_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_275_Cecum_503_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_276_Cecum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_277_Cecum_204_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_278_Cecum_434_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_279_Cecum_685_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_280_Cecum_112_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_281_Cecum_664_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_282_Cecum_457_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_283_Cecum_20_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_284_Cecum_227_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_285_Cecum_66_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_286_Cecum_89_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_287_Cecum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_288_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_289_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_290_Colon_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_291_Colon_404_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_292_Colon_551_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_293_Colon_183_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_294_Colon_344_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_295_Colon_114_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_296_Colon_597_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_297_Colon_505_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_298_Colon_206_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_299_Colon_91_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_300_Colon_643_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_301_Colon_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_302_Colon_229_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_303_Colon_275_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_304_Colon_321_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_305_Colon_160_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_306_Colon_252_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_307_Colon_22_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_308_Colon_574_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_309_Colon_137_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_310_Colon_436_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_311_Colon_687_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_312_Colon_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_313_Colon_459_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_314_Colon_367_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_315_Colon_482_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_316_Colon_604_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_317_Colon_390_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_318_Colon_45_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_319_Colon_68_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_320_Colon_298_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_321_Colon_528_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_322_Colon_666_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_323_Colon_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_324_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_325_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_326_ColonConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_327_ColonConts_299_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_328_ColonConts_253_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_329_ColonConts_69_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_330_ColonConts_46_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_331_ColonConts_506_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_332_ColonConts_605_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_333_ColonConts_276_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_334_ColonConts_230_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_335_ColonConts_322_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_336_ColonConts_161_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_337_ColonConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_338_ColonConts_575_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_339_ColonConts_92_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_340_ColonConts_207_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_341_ColonConts_598_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_342_ColonConts_552_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_343_ColonConts_345_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_344_ColonConts_115_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_345_ColonConts_368_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_346_ColonConts_405_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_347_ColonConts_483_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_348_ColonConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_349_ColonConts_23_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_350_ColonConts_644_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_351_ColonConts_667_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_352_ColonConts_688_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_353_ColonConts_138_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_354_ColonConts_391_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_355_ColonConts_529_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_356_ColonConts_184_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_357_ColonConts_460_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_358_ColonConts_437_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_359_ColonConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_360_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_361_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_362_Duodenum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_363_Duodenum_382_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_364_Duodenum_244_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_365_Duodenum_37_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_366_Duodenum_83_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_367_Duodenum_679_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_368_Duodenum_290_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_369_Duodenum_451_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_370_Duodenum_635_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_371_Duodenum_543_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_372_Duodenum_313_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_373_Duodenum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_374_Duodenum_566_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_375_Duodenum_267_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_376_Duodenum_152_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_377_Duodenum_14_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_378_Duodenum_221_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_379_Duodenum_359_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_380_Duodenum_658_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_381_Duodenum_428_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_382_Duodenum_619_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_383_Duodenum_520_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_384_Duodenum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_385_Duodenum_175_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_386_Duodenum_589_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_387_Duodenum_336_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_388_Duodenum_474_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_389_Duodenum_129_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_390_Duodenum_497_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_391_Duodenum_60_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_392_Duodenum_198_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_393_Duodenum_396_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_394_Duodenum_106_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_395_Duodenum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_396_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_397_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_398_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_399_DuodenumConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_400_DuodenumConts_314_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_401_DuodenumConts_680_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_402_DuodenumConts_84_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_403_DuodenumConts_291_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_404_DuodenumConts_620_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_405_DuodenumConts_383_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_406_DuodenumConts_544_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_407_DuodenumConts_222_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_408_DuodenumConts_452_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_409_DuodenumConts_636_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_410_DuodenumConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_411_DuodenumConts_475_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_412_DuodenumConts_397_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_413_DuodenumConts_567_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_414_DuodenumConts_245_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_415_DuodenumConts_107_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_416_DuodenumConts_337_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_417_DuodenumConts_429_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_418_DuodenumConts_38_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_419_DuodenumConts_360_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_420_DuodenumConts_590_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_421_DuodenumConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_422_DuodenumConts_521_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_423_DuodenumConts_61_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_424_DuodenumConts_130_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_425_DuodenumConts_268_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_426_DuodenumConts_15_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_427_DuodenumConts_659_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_428_DuodenumConts_153_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_431_DuodenumConts_498_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_432_DuodenumConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_433_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_434_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_435_Eye_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_436_Eye_668_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_437_Eye_118_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_438_Eye_408_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_439_Eye_256_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_440_Eye_624_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_441_Eye_95_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_442_Eye_210_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_443_Eye_72_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_445_Eye_509_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_446_Eye_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_447_Eye_555_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_448_Eye_164_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_449_Eye_532_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_450_Eye_187_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_451_Eye_608_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_452_Eye_3_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_453_Eye_302_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_454_Eye_440_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_455_Eye_371_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_456_Eye_417_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_457_Eye_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_458_Eye_233_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_459_Eye_578_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_460_Eye_26_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_461_Eye_463_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_462_Eye_49_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_463_Eye_141_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_464_Eye_325_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_465_Eye_647_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_466_Eye_348_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_467_Eye_279_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_468_Eye_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_469_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_470_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_471_Heart_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_472_Heart_79_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_473_Heart_240_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_474_Heart_102_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_475_Heart_470_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_476_Heart_424_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_477_Heart_33_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_478_Heart_447_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_479_Heart_654_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_480_Heart_194_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_481_Heart_217_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_482_Heart_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_483_Heart_286_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_484_Heart_171_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_485_Heart_332_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_486_Heart_125_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_487_Heart_562_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_488_Heart_392_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_489_Heart_355_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_490_Heart_56_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_491_Heart_148_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_492_Heart_309_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_493_Heart_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_494_Heart_493_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_495_Heart_615_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_496_Heart_516_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_497_Heart_378_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_498_Heart_585_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_499_Heart_263_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_500_Heart_539_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_501_Heart_10_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_502_Heart_631_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_503_Heart_675_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_504_Heart_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_505_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_506_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_507_Ileum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_508_Ileum_400_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_509_Ileum_501_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_510_Ileum_133_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_511_Ileum_340_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_512_Ileum_271_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_513_Ileum_478_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_514_Ileum_248_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_515_Ileum_156_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_516_Ileum_432_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_517_Ileum_41_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_518_Ileum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_519_Ileum_294_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_520_Ileum_600_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_521_Ileum_639_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_522_Ileum_110_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_523_Ileum_547_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_524_Ileum_179_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_525_Ileum_363_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_526_Ileum_225_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_527_Ileum_87_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_528_Ileum_18_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_529_Ileum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_530_Ileum_593_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_531_Ileum_662_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_532_Ileum_317_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_533_Ileum_202_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_534_Ileum_570_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_535_Ileum_64_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_536_Ileum_683_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_537_Ileum_455_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_538_Ileum_386_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_539_Ileum_524_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_540_Ileum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_541_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_542_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_543_Jejunum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_544_Jejunum_223_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_545_Jejunum_315_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_546_Jejunum_453_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_547_Jejunum_200_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_548_Jejunum_39_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_549_Jejunum_361_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_550_Jejunum_384_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_551_Jejunum_16_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_552_Jejunum_591_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_553_Jejunum_499_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_554_Jejunum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_555_Jejunum_292_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_556_Jejunum_545_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_557_Jejunum_246_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_558_Jejunum_637_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_559_Jejunum_85_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_560_Jejunum_660_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_561_Jejunum_62_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_562_Jejunum_177_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_563_Jejunum_131_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_564_Jejunum_398_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_565_Jejunum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_566_Jejunum_522_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_567_Jejunum_269_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_568_Jejunum_568_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_569_Jejunum_154_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_570_Jejunum_621_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_571_Jejunum_430_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_572_Jejunum_108_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_573_Jejunum_476_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_574_Jejunum_681_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_575_Jejunum_338_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_576_Jejunum_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_577_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_578_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_579_Kidney_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_580_Kidney_328_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_581_Kidney_512_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_582_Kidney_29_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_583_Kidney_121_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_584_Kidney_144_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_585_Kidney_581_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_586_Kidney_52_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_587_Kidney_190_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_588_Kidney_6_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_589_Kidney_236_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_590_Kidney_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_591_Kidney_259_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_592_Kidney_627_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_593_Kidney_650_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_594_Kidney_420_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_595_Kidney_213_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_596_Kidney_443_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_597_Kidney_374_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_598_Kidney_167_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_599_Kidney_535_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_600_Kidney_351_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_601_Kidney_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_602_Kidney_305_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_603_Kidney_98_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_604_Kidney_558_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_605_Kidney_466_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_606_Kidney_282_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_607_Kidney_671_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_608_Kidney_611_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_609_Kidney_75_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_610_Kidney_411_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_611_Kidney_489_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_612_Kidney_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_613_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_614_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_615_Lung_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_616_Lung_333_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_617_Lung_517_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_618_Lung_616_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_619_Lung_448_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_620_Lung_195_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_621_Lung_310_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_622_Lung_471_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_623_Lung_379_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_624_Lung_632_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_625_Lung_425_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_626_Lung_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_627_Lung_11_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_628_Lung_393_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_629_Lung_563_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_630_Lung_103_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_631_Lung_126_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_632_Lung_57_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_633_Lung_655_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_634_Lung_241_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_635_Lung_287_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_636_Lung_540_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_637_Lung_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_638_Lung_218_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_639_Lung_586_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_640_Lung_494_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_641_Lung_172_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_642_Lung_34_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_643_Lung_80_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_644_Lung_676_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_645_Lung_264_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_646_Lung_149_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_647_Lung_356_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_648_Lung_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_649_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_650_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_651_Skin_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_652_Skin_255_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_653_Skin_301_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_654_Skin_416_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_655_Skin_186_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_656_Skin_48_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_657_Skin_607_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_658_Skin_347_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_659_Skin_462_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_660_Skin_163_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_661_Skin_646_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_662_Skin_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_663_Skin_117_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_664_Skin_71_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_665_Skin_232_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_666_Skin_407_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_667_Skin_370_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_668_Skin_2_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_669_Skin_140_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_670_Skin_531_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_671_Skin_278_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_672_Skin_623_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_673_Skin_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_674_Skin_209_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_675_Skin_439_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_678_Skin_25_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_679_Skin_577_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_680_Skin_690_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_681_Skin_554_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_682_Skin_324_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_683_Skin_94_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_684_Skin_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_685_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_686_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_687_Spleen_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_688_Spleen_212_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_689_Spleen_166_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_690_Spleen_488_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_691_Spleen_74_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_692_Spleen_442_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_693_Spleen_610_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_694_Spleen_97_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_695_Spleen_327_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_696_Spleen_189_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_697_Spleen_670_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_698_Spleen_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_699_Spleen_373_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_700_Spleen_28_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_701_Spleen_534_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_702_Spleen_258_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_703_Spleen_350_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_704_Spleen_626_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_705_Spleen_410_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_706_Spleen_557_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_707_Spleen_419_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_708_Spleen_580_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_709_Spleen_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_710_Spleen_649_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_711_Spleen_5_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_712_Spleen_51_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_713_Spleen_235_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_714_Spleen_465_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_715_Spleen_511_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_716_Spleen_281_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_717_Spleen_304_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_718_Spleen_120_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_719_Spleen_143_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_720_Spleen_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_721_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_722_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_723_Stomach_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_724_Stomach_196_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_725_Stomach_173_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_726_Stomach_311_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_727_Stomach_242_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_728_Stomach_394_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_729_Stomach_656_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_730_Stomach_449_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_731_Stomach_35_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_732_Stomach_541_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_733_Stomach_495_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_734_Stomach_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_735_Stomach_518_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_736_Stomach_617_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_737_Stomach_265_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_738_Stomach_104_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_739_Stomach_288_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_740_Stomach_633_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_741_Stomach_127_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_742_Stomach_334_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_743_Stomach_426_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_744_Stomach_380_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_745_Stomach_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_746_Stomach_564_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_747_Stomach_677_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_748_Stomach_219_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_749_Stomach_357_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_750_Stomach_150_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_751_Stomach_58_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_752_Stomach_12_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_753_Stomach_472_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_754_Stomach_81_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_755_Stomach_587_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_756_Stomach_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_757_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_758_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_759_StomachConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_760_StomachConts_289_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_761_StomachConts_381_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_762_StomachConts_678_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_763_StomachConts_174_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_764_StomachConts_266_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_765_StomachConts_450_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_766_StomachConts_36_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_767_StomachConts_128_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_768_StomachConts_496_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_769_StomachConts_243_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_770_StomachConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_771_StomachConts_618_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_772_StomachConts_542_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_773_StomachConts_634_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_774_StomachConts_220_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_775_StomachConts_519_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_776_StomachConts_565_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_777_StomachConts_59_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_778_StomachConts_588_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_779_StomachConts_473_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_780_StomachConts_427_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_781_StomachConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_782_StomachConts_197_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_783_StomachConts_657_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_784_StomachConts_82_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_785_StomachConts_335_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_786_StomachConts_358_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_788_StomachConts_395_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_789_StomachConts_312_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_790_StomachConts_151_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_791_StomachConts_105_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_792_StomachConts_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_793_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_794_Blank.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_795_Urine_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_796_Urine_123_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_797_Urine_353_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_798_Urine_238_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_799_Urine_31_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_800_Urine_613_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_801_Urine_54_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_802_Urine_284_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_803_Urine_192_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_804_Urine_413_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_805_Urine_629_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_806_Urine_169_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_807_Urine_560_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_808_Urine_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_809_Urine_307_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_810_Urine_422_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_811_Urine_77_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_812_Urine_514_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_813_Urine_652_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_814_Urine_261_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_815_Urine_100_T0.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_816_Urine_215_T12.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_817_Urine_673_T8.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_818_Urine_330_T16.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_819_Urine_468_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_820_Urine_445_T20.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_821_Urine_537_T4.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_822_Urine_Pool.mzML</file>
+            <file>Z:\Patterson_circadian_rhythm\mzML files\20240909_Erin_CirMiceBApos_823_Blank.mzML</file>
+        </parameter>
+        <parameter name="Try vendor centroiding">false</parameter>
+        <parameter name="Advanced import" selected="true">
+            <parameter name="Scan filters" selected="false">
+                <parameter name="Scan number"/>
+                <parameter name="Base Filtering Integer"/>
+                <parameter name="Retention time"/>
+                <parameter name="Mobility"/>
+                <parameter name="MS level filter" selected="All MS levels">1</parameter>
+                <parameter name="Scan definition"/>
+                <parameter name="Polarity">Any</parameter>
+                <parameter name="Spectrum type">ANY</parameter>
+            </parameter>
+            <parameter name="Crop MS1 m/z" selected="false"/>
+            <parameter name="MS1 detector (Advanced)" selected="true" selected_item="Factor of lowest signal">
+                <module name="Factor of lowest signal">
+                    <parameter name="Noise factor">3.5</parameter>
+                </module>
+                <module name="Auto">
+                    <parameter name="Noise level">1000.0</parameter>
+                </module>
+                <module name="Centroid">
+                    <parameter name="Noise level">100000.0</parameter>
+                </module>
+                <module name="Exact mass">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Local maxima">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Recursive threshold">
+                    <parameter name="Noise level"/>
+                    <parameter name="Min m/z peak width"/>
+                    <parameter name="Max m/z peak width"/>
+                </module>
+                <module name="Wavelet transform">
+                    <parameter name="Noise level"/>
+                    <parameter name="Scale level"/>
+                    <parameter name="Wavelet window size (%)"/>
+                </module>
+            </parameter>
+            <parameter name="MS2 detector (Advanced)" selected="true" selected_item="Factor of lowest signal">
+                <module name="Factor of lowest signal">
+                    <parameter name="Noise factor">2.5</parameter>
+                </module>
+                <module name="Auto">
+                    <parameter name="Noise level">1000.0</parameter>
+                </module>
+                <module name="Centroid">
+                    <parameter name="Noise level">10000.0</parameter>
+                </module>
+                <module name="Exact mass">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Local maxima">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Recursive threshold">
+                    <parameter name="Noise level"/>
+                    <parameter name="Min m/z peak width"/>
+                    <parameter name="Max m/z peak width"/>
+                </module>
+                <module name="Wavelet transform">
+                    <parameter name="Noise level"/>
+                    <parameter name="Scale level"/>
+                    <parameter name="Wavelet window size (%)"/>
+                </module>
+            </parameter>
+            <parameter name="Denormalize fragment scans (traps)">false</parameter>
+        </parameter>
+        <parameter name="Metadata file" selected="false">
+            <current_file>E:\Ipsita\Audrey\Audrey_metadata.csv</current_file>
+        </parameter>
+        <parameter name="Sort and color">true</parameter>
+        <parameter name="Spectral library files"/>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_adapchromatogrambuilder.ModularADAPChromatogramBuilderModule" module_name="Chromatogram builder" parameter_version="1">
+        <parameter name="Raw data files" type="BATCH_LAST_FILES"/>
+        <parameter name="Scan filters" selected="true">
+            <parameter name="Scan number"/>
+            <parameter name="Base Filtering Integer"/>
+            <parameter name="Retention time"/>
+            <parameter name="Mobility"/>
+            <parameter name="MS level filter" selected="MS1, level = 1">1</parameter>
+            <parameter name="Scan definition"/>
+            <parameter name="Polarity">Any</parameter>
+            <parameter name="Spectrum type">ANY</parameter>
+        </parameter>
+        <parameter name="Minimum consecutive scans">3</parameter>
+        <parameter name="Minimum intensity for consecutive scans">10000.0</parameter>
+        <parameter name="Minimum absolute height">50000.0</parameter>
+        <parameter name="m/z tolerance (scan-to-scan)">
+            <absolutetolerance>0.002</absolutetolerance>
+            <ppmtolerance>10.0</ppmtolerance>
+        </parameter>
+        <parameter name="Suffix">chroms</parameter>
+        <parameter name="Allow single scan chromatograms"/>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_smoothing.SmoothingModule" module_name="Smoothing" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Smoothing algorithm" selected_item="Savitzky Golay">
+            <module name="Loess smoothing">
+                <parameter name="Retention time width (scans)" selected="false">5</parameter>
+                <parameter name="Mobility width (scans)" selected="false">5</parameter>
+            </module>
+            <module name="Savitzky Golay">
+                <parameter name="Retention time width (scans)" selected="false">5</parameter>
+                <parameter name="Mobility width (scans)" selected="false">5</parameter>
+            </module>
+        </parameter>
+        <parameter name="Original feature list">REMOVE</parameter>
+        <parameter name="Suffix">sm</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_chromatogramdeconvolution.minimumsearch.MinimumSearchFeatureResolverModule" module_name="Local minimum feature resolver" parameter_version="2">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Suffix">r</parameter>
+        <parameter name="Original feature list">REMOVE</parameter>
+        <parameter name="MS/MS scan pairing" selected="true">
+            <parameter name="MS1 to MS2 precursor tolerance (m/z)">
+                <absolutetolerance>0.003</absolutetolerance>
+                <ppmtolerance>10.0</ppmtolerance>
+            </parameter>
+            <parameter name="Retention time filter" selected="Use feature edges" unit="MINUTES">0.2</parameter>
+            <parameter name="Minimum relative feature height" selected="true">0.25</parameter>
+            <parameter name="Minimum required signals" selected="true">1</parameter>
+            <parameter name="Limit by ion mobility edges">false</parameter>
+            <parameter name="Merge MS/MS spectra (TIMS)">false</parameter>
+            <parameter name="Minimum detections in IMS dimension">2</parameter>
+            <parameter name="Advanced" selected="false">
+                <parameter name="Minimum signal intensity (absolute, TIMS)" selected="false">250.0</parameter>
+                <parameter name="Minimum signal intensity (relative, TIMS)" selected="true">0.01</parameter>
+                <parameter name="Group iterative MS2s" selected="false">mainQuantFile</parameter>
+            </parameter>
+        </parameter>
+        <parameter name="Dimension">Retention time</parameter>
+        <parameter name="Chromatographic threshold">0.9</parameter>
+        <parameter name="Minimum search range RT/Mobility (absolute)">0.2</parameter>
+        <parameter name="Minimum relative height">0.01</parameter>
+        <parameter name="Minimum absolute height">50000.0</parameter>
+        <parameter name="Min ratio of peak top/edge">2.0</parameter>
+        <parameter name="Peak duration range (min/mobility)">
+            <min>0.01</min>
+            <max>1.0</max>
+        </parameter>
+        <parameter name="Minimum scans (data points)">4</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.filter_isotopegrouper.IsotopeGrouperModule" module_name="13C isotope filter (formerly: isotope grouper)" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Name suffix">deiso</parameter>
+        <parameter name="m/z tolerance (intra-sample)">
+            <absolutetolerance>0.0015</absolutetolerance>
+            <ppmtolerance>5.0</ppmtolerance>
+        </parameter>
+        <parameter name="Retention time tolerance" unit="MINUTES">0.05</parameter>
+        <parameter name="Mobility tolerance" selected="false">0.008</parameter>
+        <parameter name="Monotonic shape">true</parameter>
+        <parameter name="Maximum charge">2</parameter>
+        <parameter name="Representative isotope">Most intense</parameter>
+        <parameter name="Never remove feature with MS2">true</parameter>
+        <parameter name="Original feature list">PROCESS IN PLACE</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.filter_isotopefinder.IsotopeFinderModule" module_name="Isotopic peaks finder" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Chemical elements">H,C,N,O,S</parameter>
+        <parameter name="m/z tolerance (feature-to-scan)">
+            <absolutetolerance>0.0015</absolutetolerance>
+            <ppmtolerance>5.0</ppmtolerance>
+        </parameter>
+        <parameter name="Maximum charge of isotope m/z">3</parameter>
+        <parameter name="Search in scans">SINGLE MOST INTENSE</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.align_join.JoinAlignerModule" module_name="Join aligner" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Feature list name">Aligned feature list</parameter>
+        <parameter name="m/z tolerance (sample-to-sample)">
+            <absolutetolerance>0.0015</absolutetolerance>
+            <ppmtolerance>5.0</ppmtolerance>
+        </parameter>
+        <parameter name="Weight for m/z">3.0</parameter>
+        <parameter name="Retention time tolerance" unit="MINUTES">0.2</parameter>
+        <parameter name="Weight for RT">1.0</parameter>
+        <parameter name="Mobility tolerance" selected="false">0.01</parameter>
+        <parameter name="Mobility weight">1.0</parameter>
+        <parameter name="Require same charge state">false</parameter>
+        <parameter name="Require same ID">false</parameter>
+        <parameter name="Compare isotope pattern" selected="false">
+            <parameter name="Isotope m/z tolerance">
+                <absolutetolerance>0.001</absolutetolerance>
+                <ppmtolerance>5.0</ppmtolerance>
+            </parameter>
+            <parameter name="Minimum absolute intensity">1000.0</parameter>
+            <parameter name="Minimum score">0.5</parameter>
+        </parameter>
+        <parameter name="Compare spectra similarity" selected="false">
+            <parameter name="Spectral m/z tolerance">
+                <absolutetolerance>0.001</absolutetolerance>
+                <ppmtolerance>10.0</ppmtolerance>
+            </parameter>
+            <parameter name="MS level">2</parameter>
+            <parameter name="Compare spectra similarity" selected_item="Weighted cosine similarity">
+                <module name="Weighted cosine similarity">
+                    <parameter name="Weights">MassBank (mz^2 * I^0.5)</parameter>
+                    <parameter name="Minimum  cos similarity">0.7</parameter>
+                    <parameter name="Handle unmatched signals">KEEP ALL AND MATCH TO ZERO</parameter>
+                </module>
+                <module name="Composite cosine identity (e.g., GC-EI-MS; similar to NIST search)">
+                    <parameter name="Weights">MassBank (mz^2 * I^0.5)</parameter>
+                    <parameter name="Minimum  cos similarity">0.7</parameter>
+                    <parameter name="Handle unmatched signals">KEEP ALL AND MATCH TO ZERO</parameter>
+                </module>
+            </parameter>
+        </parameter>
+        <parameter name="Original feature list">REMOVE</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.filter_rowsfilter.RowsFilterModule" module_name="Feature list rows filter" parameter_version="3">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Name suffix">13C peak</parameter>
+        <parameter name="Keep or remove rows">Keep rows that match all criteria</parameter>
+        <parameter name="Original feature list">PROCESS IN PLACE</parameter>
+        <parameter name="Minimum aligned samples" selected="false">
+            <abs>2</abs>
+            <rel>0.0</rel>
+        </parameter>
+        <parameter name="Minimum aligned samples (in any group)" selected="false">
+            <parameter name="Minimum samples">
+                <abs>1</abs>
+                <rel>0.0</rel>
+            </parameter>
+            <parameter name="Metadata grouping"/>
+        </parameter>
+        <parameter name="Minimum aligned samples (in one group)" selected="false">
+            <parameter name="Minimum samples">
+                <abs>1</abs>
+                <rel>0.0</rel>
+            </parameter>
+            <parameter column="" group="" name="Sample grouping"/>
+        </parameter>
+        <parameter name="RSD filter" selected="false">
+            <parameter name="Abundance measure">Area</parameter>
+            <parameter name="Missing value imputation">GLOBAL_LIMIT_OF_DETECTION</parameter>
+            <parameter column="mzmine_sample_type" group="qc" name="Sample grouping"/>
+            <parameter name="Maximum missing values">0.2</parameter>
+            <parameter name="Maximum RSD">0.2</parameter>
+            <parameter name="Keep undetected">false</parameter>
+        </parameter>
+        <parameter name="Significance/fold-change filter" selected="false">
+            <parameter name="Abundance measure">Height</parameter>
+            <parameter name="Missing value imputation">GLOBAL_LIMIT_OF_DETECTION</parameter>
+            <parameter column="" groupA="" groupB="" name="Metadata selection"/>
+            <parameter name="Significance test">WELCHS_T_TEST</parameter>
+            <parameter name="Maximum p-value">0.05</parameter>
+            <parameter name="log2(fold-change) threshold">1.0</parameter>
+            <parameter name="Fold-change filter">abs_both_sides</parameter>
+        </parameter>
+        <parameter name="Minimum signals in an isotope pattern" selected="false">2</parameter>
+        <parameter name="Validate 13C isotope pattern" selected="true">
+            <parameter name="m/z tolerance">
+                <absolutetolerance>0.0015</absolutetolerance>
+                <ppmtolerance>5.0</ppmtolerance>
+            </parameter>
+            <parameter name="Max charge">1</parameter>
+            <parameter name="Estimate minimum carbon">true</parameter>
+            <parameter name="Remove if 13C">true</parameter>
+            <parameter name="Exclude isotopes">O</parameter>
+        </parameter>
+        <parameter name="Remove redundant isotope rows">false</parameter>
+        <parameter name="m/z" selected="false"/>
+        <parameter name="Retention time" selected="false"/>
+        <parameter name="Chromatographic width" selected="false">
+            <min>0.0</min>
+            <max>3.0</max>
+        </parameter>
+        <parameter name="Chromatographic FWHM" selected="false">
+            <min>0.0</min>
+            <max>1.0</max>
+        </parameter>
+        <parameter name="Charge" selected="false">
+            <min>1</min>
+            <max>2</max>
+        </parameter>
+        <parameter name="Mass defect" selected="false"/>
+        <parameter name="Kendrick mass defect" selected="false">
+            <parameter name="Kendrick mass defect">
+                <min>0.0</min>
+                <max>1.0</max>
+            </parameter>
+            <parameter name="Kendrick mass base"/>
+            <parameter name="Shift">0.0</parameter>
+            <parameter name="Charge">1</parameter>
+            <parameter name="Divisor">1</parameter>
+            <parameter name="Use Remainder of Kendrick mass">false</parameter>
+        </parameter>
+        <parameter name="Flexible filter (e.g., annotation)" selected="false">
+            <parameter name="Matching mode"/>
+            <parameter name="Type"/>
+            <parameter name="Search value"/>
+        </parameter>
+        <parameter name="Only identified?">false</parameter>
+        <parameter name="Text in identity" selected="false"/>
+        <parameter name="Text in comment" selected="false"/>
+        <parameter name="Require MS2 scan">false</parameter>
+        <parameter name="Require other detector correlation">false</parameter>
+        <parameter name="Never remove rows with MS2">true</parameter>
+        <parameter name="Never remove annotated rows">false</parameter>
+        <parameter name="Reset the row ID">false</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.gapfill_peakfinder.multithreaded.MultiThreadPeakFinderModule" module_name="Feature finder (multithreaded)" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Name suffix">gaps</parameter>
+        <parameter name="Intensity tolerance">0.2</parameter>
+        <parameter name="m/z tolerance (sample-to-sample)">
+            <absolutetolerance>0.002</absolutetolerance>
+            <ppmtolerance>5.0</ppmtolerance>
+        </parameter>
+        <parameter name="Retention time tolerance" unit="MINUTES">0.2</parameter>
+        <parameter name="Minimum scans (data points)">1</parameter>
+        <parameter name="Original feature list">REMOVE</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.filter_duplicatefilter.DuplicateFilterModule" module_name="Duplicate peak filter" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Name suffix">dup</parameter>
+        <parameter name="Filter mode">NEW AVERAGE</parameter>
+        <parameter name="m/z tolerance">
+            <absolutetolerance>0.01</absolutetolerance>
+            <ppmtolerance>10.0</ppmtolerance>
+        </parameter>
+        <parameter name="RT tolerance" unit="MINUTES">0.2</parameter>
+        <parameter name="Mobility tolerance" selected="false">0.008</parameter>
+        <parameter name="Require same identification">false</parameter>
+        <parameter name="Original feature list">PROCESS IN PLACE</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.filter_blanksubtraction.FeatureListBlankSubtractionModule" module_name="Feature list blank subtraction" parameter_version="1">
+        <parameter name="Aligned feature list" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Blank/Control raw data files" type="NAME_PATTERN">
+            <name_pattern>*Blank*</name_pattern>
+        </parameter>
+        <parameter name="Minimum # of detection in blanks">20</parameter>
+        <parameter name="Quantification">Height</parameter>
+        <parameter name="Ratio type">MAXIMUM</parameter>
+        <parameter name="Fold change increase" selected="true">3.0</parameter>
+        <parameter name="Keep or remove features (of rows) below fold change">REMOVE - Only keep features above fold change</parameter>
+        <parameter name="Create secondary list of subtracted features">false</parameter>
+        <parameter name="Suffix">subtracted</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.io.export_features_gnps.fbmn.GnpsFbmnExportAndSubmitModule" module_name="Export molecular networking files (e.g., GNPS, FBMN, IIMN, MetGem)" parameter_version="3">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Filename">
+            <current_file>Z:\Patterson_circadian_rhythm\MZmine\Patterson_circadian_rhythm_all_samples_test1_preIIMN.mgf</current_file>
+            <last_file>Z:\Patterson_circadian_rhythm\MZmine\Patterson_circadian_rhythm_all_samples_test1_preIIMN.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000098103_Patterson_BA_timecourse\20250710_MSV000098103_Patterson_circadian.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000091901_ONR_plasma\20250710_MSV000091901_ONR_plasma.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000090692_ONR_fecal\20250709_MSV000090692_ONR_fecal.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\Karin_cholengitis\20250709_MZmine_Karin_Cholengitis_batch.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\Datasets_for_BSH_screening_ppr\MSV000093167_Gastrectomy\20250519_MSV000093167_Gastrectomy_MZmine.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\Datasets_for_BSH_screening_ppr\MSV000088761_BAAT_KO\20250519_MSV000088761_BAAT_KO_MZmine.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000080627_ONR_Wright\stool_subject\20250519_MZmine_ONR_fecal.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000080627_ONR_Wright\plasma_subject\20250519_MZmine_ONR_plasma.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\April_BSH_screening\FINAL_ASSAY\20250413_BSH_Final.mgf</last_file>
+        </parameter>
+        <parameter name="Filter rows">MS2 OR ION IDENTITY</parameter>
+        <parameter name="Merge &amp; select fragment scans" selected_item="preset_merged">
+            <module name="simple_merged">
+                <parameter name="Presets">single_merged_scan</parameter>
+                <parameter name="Merging m/z tolerance">
+                    <absolutetolerance>0.001</absolutetolerance>
+                    <ppmtolerance>5.0</ppmtolerance>
+                </parameter>
+            </module>
+            <module name="preset_merged">
+                <parameter name="Presets">single_merged_scan</parameter>
+                <parameter name="Merging m/z tolerance">
+                    <absolutetolerance>0.001</absolutetolerance>
+                    <ppmtolerance>10.0</ppmtolerance>
+                </parameter>
+                <parameter name="Merge">
+                    <selected>Across samples</selected>
+                </parameter>
+                <parameter name="Intensity merge mode">SUMMED</parameter>
+            </module>
+            <module name="input_scans">
+                <parameter name="Select input scans">most_intense_across_samples</parameter>
+            </module>
+        </parameter>
+        <parameter name="Intensity normalization" scientific="false">no_normalization</parameter>
+        <parameter name="Feature intensity">Area</parameter>
+        <parameter name="CSV export">SIMPLE</parameter>
+        <parameter name="Submit to GNPS" selected="false">
+            <parameter name="Meta data file" selected="false"/>
+            <parameter name="Export ion identity networks">true</parameter>
+            <parameter name="Presets">HIGHRES</parameter>
+            <parameter name="Job title"/>
+            <parameter name="Email"/>
+            <parameter name="Username"/>
+            <parameter name="Password"/>
+            <parameter name="Open website">true</parameter>
+        </parameter>
+        <parameter name="Open folder">false</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.io.export_features_sirius.SiriusExportModule" module_name="Export for SIRIUS" parameter_version="2">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Filename">
+            <current_file>Z:\Patterson_circadian_rhythm\MZmine\SIRIUS_test1_preIIMN.mgf</current_file>
+            <last_file>Z:\Patterson_circadian_rhythm\MZmine\SIRIUS_test1_preIIMN.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000098103_Patterson_BA_timecourse\20250710_MSV000098103_Patterson_circadian_SIRIUS.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000091901_ONR_plasma\20250710_MSV000091901_ONR_plasma_SIRIUS.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000090692_ONR_fecal\20250709_MSV000090692_ONR_fecal_SIRIUS.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\Karin_cholengitis\20250709_MZmine_Karin_Cholengitis_batch_SIRIUS.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\Datasets_for_BSH_screening_ppr\MSV000093167_Gastrectomy\20250519_MSV000093167_Gastrectomy_MZmine.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\Datasets_for_BSH_screening_ppr\MSV000088761_BAAT_KO\20250519_MSV000088761_BAAT_KO_MZmine_SIRIUS.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000080627_ONR_Wright\stool_subject\20250519_MZmine_ONR_fecal_SIRIUS.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000080627_ONR_Wright\plasma_subject\20250519_MZmine_ONR_plasma_sirius.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\April_BSH_screening\FINAL_ASSAY\20250413_BSH_Final_SIRIUS.mgf</last_file>
+        </parameter>
+        <parameter name="Intensity normalization" scientific="true">no_normalization</parameter>
+        <parameter name="Merge &amp; select fragment scans" selected_item="input_scans">
+            <module name="simple_merged">
+                <parameter name="Presets">single_merged_scan</parameter>
+                <parameter name="Merging m/z tolerance">
+                    <absolutetolerance>0.001</absolutetolerance>
+                    <ppmtolerance>5.0</ppmtolerance>
+                </parameter>
+            </module>
+            <module name="preset_merged">
+                <parameter name="Presets">representative_scans</parameter>
+                <parameter name="Merging m/z tolerance">
+                    <absolutetolerance>0.008</absolutetolerance>
+                    <ppmtolerance>25.0</ppmtolerance>
+                </parameter>
+                <parameter name="Merge">
+                    <selected>Across samples</selected>
+                </parameter>
+                <parameter name="Intensity merge mode">MAXIMUM</parameter>
+            </module>
+            <module name="input_scans">
+                <parameter name="Select input scans">most_intense_across_samples</parameter>
+            </module>
+            <module name="advanced">
+                <parameter name="Merging options">
+                    <selected>Across energies</selected>
+                    <selected>Across samples</selected>
+                </parameter>
+                <parameter name="m/z tolerance">
+                    <absolutetolerance>0.008</absolutetolerance>
+                    <ppmtolerance>25.0</ppmtolerance>
+                </parameter>
+                <parameter name="Intensity merge mode">MAXIMUM</parameter>
+                <parameter name="Also include input scans">none</parameter>
+            </module>
+        </parameter>
+        <parameter name="m/z tolerance">
+            <absolutetolerance>0.002</absolutetolerance>
+            <ppmtolerance>5.0</ppmtolerance>
+        </parameter>
+        <parameter name="Only rows with annotation">false</parameter>
+        <parameter name="Exclude multiple charge">false</parameter>
+        <parameter name="Exclude multimers">false</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.group_metacorrelate.corrgrouping.CorrelateGroupingModule" module_name="Correlation grouping (metaCorrelate)" parameter_version="3">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="RT tolerance" unit="MINUTES">0.1</parameter>
+        <parameter name="Minimum feature height">30000.0</parameter>
+        <parameter name="Intensity threshold for correlation">10000.0</parameter>
+        <parameter name="Min samples filter">
+            <parameter name="Min samples in all">
+                <abs>3</abs>
+                <rel>0.0</rel>
+            </parameter>
+            <parameter name="Min samples in group">
+                <abs>0</abs>
+                <rel>0.0</rel>
+            </parameter>
+            <parameter name="Min %-intensity overlap">0.95</parameter>
+            <parameter name="Exclude gap-filled features">false</parameter>
+        </parameter>
+        <parameter name="Feature shape correlation" selected="false">
+            <parameter name="Min data points">5</parameter>
+            <parameter name="Min data points on edge">2</parameter>
+            <parameter name="Measure">PEARSON</parameter>
+            <parameter name="Min feature shape correlation">0.8</parameter>
+            <parameter name="Min total correlation" selected="false">0.5</parameter>
+        </parameter>
+        <parameter name="Feature height correlation" selected="true">
+            <parameter name="Minimum samples">3</parameter>
+            <parameter name="Measure">PEARSON</parameter>
+            <parameter name="Min correlation">0.7</parameter>
+        </parameter>
+        <parameter name="Suffix (or auto)" selected="false"/>
+        <parameter name="Original feature list">KEEP</parameter>
+        <parameter name="Advanced" selected="true">
+            <parameter name="Keep extended stats">false</parameter>
+            <parameter name="Simplify for ≥ samples">250</parameter>
+        </parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.id_ion_identity_networking.ionidnetworking.IonNetworkingModule" module_name="Ion identity networking" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="m/z tolerance (intra-sample)">
+            <absolutetolerance>0.0015</absolutetolerance>
+            <ppmtolerance>5.0</ppmtolerance>
+        </parameter>
+        <parameter name="Check">AVGERAGE</parameter>
+        <parameter name="Min height">0.0</parameter>
+        <parameter name="Ion identity library">
+            <parameter name="Maximum charge">3</parameter>
+            <parameter name="Maximum molecules/cluster">2</parameter>
+            <parameter name="Adducts">
+                <adduct_type selected="false">
+                    <subpart charge="-1" mass_difference="-1.007276" mol_formula="H" name="H" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="false">
+                    <subpart charge="1" mass_difference="-5.4858E-4" mol_formula="" name="e" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="true">
+                    <subpart charge="1" mass_difference="1.007276" mol_formula="H" name="H" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="true">
+                    <subpart charge="1" mass_difference="22.989218" mol_formula="Na" name="Na" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="true">
+                    <subpart charge="1" mass_difference="38.963158" mol_formula="K" name="K" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="true">
+                    <subpart charge="1" mass_difference="18.033823" mol_formula="NH4" name="NH4" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="true">
+                    <subpart charge="1" mass_difference="1.007276" mol_formula="H" name="H" type="ADDUCT"/>
+                    <subpart charge="1" mass_difference="1.007276" mol_formula="H" name="H" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="false">
+                    <subpart charge="2" mass_difference="39.96149382" mol_formula="Ca" name="Ca" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="false">
+                    <subpart charge="2" mass_difference="55.93384" mol_formula="Fe" name="Fe" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="false">
+                    <subpart charge="2" mass_difference="47.96953482" mol_formula="Mg" name="Mg" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="false">
+                    <subpart charge="1" mass_difference="1.007276" mol_formula="H" name="H" type="ADDUCT"/>
+                    <subpart charge="1" mass_difference="22.989218" mol_formula="Na" name="Na" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="false">
+                    <subpart charge="1" mass_difference="1.007276" mol_formula="H" name="H" type="ADDUCT"/>
+                    <subpart charge="1" mass_difference="18.033823" mol_formula="NH4" name="NH4" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="false">
+                    <subpart charge="1" mass_difference="1.007276" mol_formula="H" name="H" type="ADDUCT"/>
+                    <subpart charge="1" mass_difference="38.963158" mol_formula="K" name="K" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="true">
+                    <subpart charge="-1" mass_difference="-1.007276" mol_formula="H" name="H" type="ADDUCT"/>
+                    <subpart charge="1" mass_difference="22.989218" mol_formula="Na" name="Na" type="ADDUCT"/>
+                    <subpart charge="1" mass_difference="22.989218" mol_formula="Na" name="Na" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="false">
+                    <subpart charge="2" mass_difference="39.96149382" mol_formula="Ca" name="Ca" type="ADDUCT"/>
+                    <subpart charge="-1" mass_difference="-1.007276" mol_formula="H" name="H" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="false">
+                    <subpart charge="2" mass_difference="55.93384" mol_formula="Fe" name="Fe" type="ADDUCT"/>
+                    <subpart charge="-1" mass_difference="-1.007276" mol_formula="H" name="H" type="ADDUCT"/>
+                </adduct_type>
+                <adduct_type selected="false">
+                    <subpart charge="-1" mass_difference="-1.007276" mol_formula="H" name="H" type="ADDUCT"/>
+                    <subpart charge="2" mass_difference="47.96953482" mol_formula="Mg" name="Mg" type="ADDUCT"/>
+                </adduct_type>
+                <modification_type selected="true">
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                </modification_type>
+                <modification_type selected="true">
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                </modification_type>
+                <modification_type selected="true">
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                </modification_type>
+                <modification_type selected="false">
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                </modification_type>
+                <modification_type selected="false">
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                    <subpart charge="0" mass_difference="-18.010565" mol_formula="H2O" name="H2O" type="NEUTRAL_LOSS"/>
+                </modification_type>
+                <modification_type selected="false">
+                    <subpart charge="0" mass_difference="-17.026549" mol_formula="NH3" name="NH3" type="NEUTRAL_LOSS"/>
+                </modification_type>
+                <modification_type selected="false">
+                    <subpart charge="0" mass_difference="15.99491462" mol_formula="O" name="O" type="CLUSTER"/>
+                </modification_type>
+                <modification_type selected="false">
+                    <subpart charge="0" mass_difference="-27.994915" mol_formula="CO" name="CO" type="NEUTRAL_LOSS"/>
+                </modification_type>
+                <modification_type selected="false">
+                    <subpart charge="0" mass_difference="-43.989829" mol_formula="CO2" name="CO2" type="NEUTRAL_LOSS"/>
+                </modification_type>
+                <modification_type selected="false">
+                    <subpart charge="0" mass_difference="-28.031301" mol_formula="C2H4" name="C2H4" type="NEUTRAL_LOSS"/>
+                </modification_type>
+                <modification_type selected="false">
+                    <subpart charge="0" mass_difference="46.005479" mol_formula="CHOOH" name="HFA" type="CLUSTER"/>
+                </modification_type>
+                <modification_type selected="false">
+                    <subpart charge="0" mass_difference="60.021129" mol_formula="CH3COOH" name="HAc" type="CLUSTER"/>
+                </modification_type>
+                <modification_type selected="false">
+                    <subpart charge="0" mass_difference="32.026215" mol_formula="CH3OH" name="MeOH" type="CLUSTER"/>
+                </modification_type>
+                <modification_type selected="true">
+                    <subpart charge="0" mass_difference="41.026549" mol_formula="CH3CN" name="ACN" type="CLUSTER"/>
+                </modification_type>
+                <modification_type selected="false">
+                    <subpart charge="0" mass_difference="60.058064" mol_formula="C3H8O" name="IsoProp" type="CLUSTER"/>
+                </modification_type>
+                <modification_type selected="true">
+                    <subpart charge="1" mass_difference="-17.0033" mol_formula="" name="H2O+H" type="ADDUCT"/>
+                </modification_type>
+                <modification_type selected="true">
+                    <subpart charge="1" mass_difference="-35.0138" mol_formula="" name="2H2O+H" type="ADDUCT"/>
+                </modification_type>
+                <modification_type selected="true">
+                    <subpart charge="1" mass_difference="-53.0244" mol_formula="" name="3H2O+H" type="ADDUCT"/>
+                </modification_type>
+            </parameter>
+        </parameter>
+        <parameter name="Annotation refinement" selected="true">
+            <parameter name="Minimum size" selected="false">2</parameter>
+            <parameter name="Delete small networks without major ion">false</parameter>
+            <parameter name="Delete smaller networks: Link threshold" selected="true">4</parameter>
+            <parameter name="Delete networks without monomer">false</parameter>
+            <parameter name="Delete rows witout ion id">false</parameter>
+        </parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.io.export_features_gnps.fbmn.GnpsFbmnExportAndSubmitModule" module_name="Export molecular networking files (e.g., GNPS, FBMN, IIMN, MetGem)" parameter_version="3">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Filename">
+            <current_file>Z:\Patterson_circadian_rhythm\MZmine\Patterson_circadian_rhythm_all_samples_test1_postIIMN.mgf</current_file>
+            <last_file>Z:\Patterson_circadian_rhythm\MZmine\Patterson_circadian_rhythm_all_samples_test1_postIIMN.mgf</last_file>
+            <last_file>Z:\Patterson_circadian_rhythm\MZmine\Patterson_circadian_rhythm_all_samples_test1_preIIMN.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000098103_Patterson_BA_timecourse\20250710_MSV000098103_Patterson_circadian.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000091901_ONR_plasma\20250710_MSV000091901_ONR_plasma.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000090692_ONR_fecal\20250709_MSV000090692_ONR_fecal.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\Karin_cholengitis\20250709_MZmine_Karin_Cholengitis_batch.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\Datasets_for_BSH_screening_ppr\MSV000093167_Gastrectomy\20250519_MSV000093167_Gastrectomy_MZmine.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\Datasets_for_BSH_screening_ppr\MSV000088761_BAAT_KO\20250519_MSV000088761_BAAT_KO_MZmine.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000080627_ONR_Wright\stool_subject\20250519_MZmine_ONR_fecal.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000080627_ONR_Wright\plasma_subject\20250519_MZmine_ONR_plasma.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\April_BSH_screening\FINAL_ASSAY\20250413_BSH_Final.mgf</last_file>
+        </parameter>
+        <parameter name="Filter rows">MS2 OR ION IDENTITY</parameter>
+        <parameter name="Merge &amp; select fragment scans" selected_item="preset_merged">
+            <module name="simple_merged">
+                <parameter name="Presets">single_merged_scan</parameter>
+                <parameter name="Merging m/z tolerance">
+                    <absolutetolerance>0.001</absolutetolerance>
+                    <ppmtolerance>5.0</ppmtolerance>
+                </parameter>
+            </module>
+            <module name="preset_merged">
+                <parameter name="Presets">single_merged_scan</parameter>
+                <parameter name="Merging m/z tolerance">
+                    <absolutetolerance>0.001</absolutetolerance>
+                    <ppmtolerance>10.0</ppmtolerance>
+                </parameter>
+                <parameter name="Merge">
+                    <selected>Across samples</selected>
+                </parameter>
+                <parameter name="Intensity merge mode">SUMMED</parameter>
+            </module>
+            <module name="input_scans">
+                <parameter name="Select input scans">most_intense_across_samples</parameter>
+            </module>
+        </parameter>
+        <parameter name="Intensity normalization" scientific="false">no_normalization</parameter>
+        <parameter name="Feature intensity">Area</parameter>
+        <parameter name="CSV export">SIMPLE</parameter>
+        <parameter name="Submit to GNPS" selected="false">
+            <parameter name="Meta data file" selected="false"/>
+            <parameter name="Export ion identity networks">true</parameter>
+            <parameter name="Presets">HIGHRES</parameter>
+            <parameter name="Job title"/>
+            <parameter name="Email"/>
+            <parameter name="Username"/>
+            <parameter name="Password"/>
+            <parameter name="Open website">true</parameter>
+        </parameter>
+        <parameter name="Open folder">false</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.io.export_features_sirius.SiriusExportModule" module_name="Export for SIRIUS" parameter_version="2">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Filename">
+            <current_file>Z:\Patterson_circadian_rhythm\MZmine\SIRIUS_test1_postIIMN.mgf</current_file>
+            <last_file>Z:\Patterson_circadian_rhythm\MZmine\SIRIUS_test1_postIIMN.mgf</last_file>
+            <last_file>Z:\Patterson_circadian_rhythm\MZmine\SIRIUS_test1_preIIMN.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000098103_Patterson_BA_timecourse\20250710_MSV000098103_Patterson_circadian_SIRIUS.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000091901_ONR_plasma\20250710_MSV000091901_ONR_plasma_SIRIUS.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000090692_ONR_fecal\20250709_MSV000090692_ONR_fecal_SIRIUS.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\Karin_cholengitis\20250709_MZmine_Karin_Cholengitis_batch_SIRIUS.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\Datasets_for_BSH_screening_ppr\MSV000093167_Gastrectomy\20250519_MSV000093167_Gastrectomy_MZmine.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\Datasets_for_BSH_screening_ppr\MSV000088761_BAAT_KO\20250519_MSV000088761_BAAT_KO_MZmine_SIRIUS.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000080627_ONR_Wright\stool_subject\20250519_MZmine_ONR_fecal_SIRIUS.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\MSV000080627_ONR_Wright\plasma_subject\20250519_MZmine_ONR_plasma_sirius.mgf</last_file>
+            <last_file>E:\Ipsita-DONOTDELETE\April_BSH_screening\FINAL_ASSAY\20250413_BSH_Final_SIRIUS.mgf</last_file>
+        </parameter>
+        <parameter name="Intensity normalization" scientific="true">no_normalization</parameter>
+        <parameter name="Merge &amp; select fragment scans" selected_item="input_scans">
+            <module name="simple_merged">
+                <parameter name="Presets">single_merged_scan</parameter>
+                <parameter name="Merging m/z tolerance">
+                    <absolutetolerance>0.001</absolutetolerance>
+                    <ppmtolerance>5.0</ppmtolerance>
+                </parameter>
+            </module>
+            <module name="preset_merged">
+                <parameter name="Presets">representative_scans</parameter>
+                <parameter name="Merging m/z tolerance">
+                    <absolutetolerance>0.008</absolutetolerance>
+                    <ppmtolerance>25.0</ppmtolerance>
+                </parameter>
+                <parameter name="Merge">
+                    <selected>Across samples</selected>
+                </parameter>
+                <parameter name="Intensity merge mode">MAXIMUM</parameter>
+            </module>
+            <module name="input_scans">
+                <parameter name="Select input scans">most_intense_across_samples</parameter>
+            </module>
+            <module name="advanced">
+                <parameter name="Merging options">
+                    <selected>Across energies</selected>
+                    <selected>Across samples</selected>
+                </parameter>
+                <parameter name="m/z tolerance">
+                    <absolutetolerance>0.008</absolutetolerance>
+                    <ppmtolerance>25.0</ppmtolerance>
+                </parameter>
+                <parameter name="Intensity merge mode">MAXIMUM</parameter>
+                <parameter name="Also include input scans">none</parameter>
+            </module>
+        </parameter>
+        <parameter name="m/z tolerance">
+            <absolutetolerance>0.002</absolutetolerance>
+            <ppmtolerance>5.0</ppmtolerance>
+        </parameter>
+        <parameter name="Only rows with annotation">false</parameter>
+        <parameter name="Exclude multiple charge">false</parameter>
+        <parameter name="Exclude multimers">false</parameter>
+    </batchstep>
+</batch>

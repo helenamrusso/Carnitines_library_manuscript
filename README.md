@@ -25,12 +25,12 @@ Carnitine spectral library created for this work. This library consists of 34,22
 
 ## MassQL Query
 
-The following query was used to recover carnitine MS/MS spectra from public metabolomics repositories:
+The following query was used to recover potential carnitine MS/MS spectra from public metabolomics repositories:
 ```
-QUERY scaninfo(MS2DATA)
-WHERE MS2PROD=60.0808:TOLERANCEPPM=20:INTENSITYPERCENT=1
-AND MS2PROD=85.0284:TOLERANCEPPM=20:INTENSITYPERCENT=50
-AND MS2PROD=144.1019:TOLERANCEPPM=20:INTENSITYPERCENT=1
+QUERY scaninfo(MS2DATA) WHERE
+MS2PROD=60.0808:TOLERANCEPPM=20:INTENSITYPERCENT=1 AND
+MS2PROD=85.0284:TOLERANCEPPM=20:INTENSITYPERCENT=50 AND
+MS2PROD=144.1019:TOLERANCEPPM=20:INTENSITYPERCENT=1
 ```
 
 All queries were executed using the GNPS2 MassQL workflow, and the results can be accessed through the following links:

@@ -23,3 +23,9 @@ Carnitine spectral library created for this work. This library consists of 34,22
 ## Citation
 
 > *(to be added upon publication)*
+
+---
+
+## Contact
+
+For more information and questions regarding these scripts please reach out to hmannochiorusso@health.ucsd.edu and fpatrick@health.ucsd.edu

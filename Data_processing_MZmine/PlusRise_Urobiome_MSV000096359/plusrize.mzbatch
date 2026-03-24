@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?><batch mzmine_version="4.3.0">
+    <batchstep method="io.github.mzmine.modules.io.import_rawdata_all.AllSpectralDataImportModule" parameter_version="1">
+        <parameter name="File names">
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\Prerun_Blank_RISE_PLUS_0.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_0.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_0.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_A11_Rise_PlateBlank_1.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_A11_Rise_PlateBlank_1.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_A11_Rise_PlateBlank_1.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_A11_Rise_PlateBlank_1.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_A11_Rise_PlateBlank_1.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_A11_Rise_PlateBlank_1.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_A11_Rise_PlateBlank_1.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_A11_Rise_PlateBlank_1.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_1.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_1.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_B11_Rise_PlateBlank_2.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_B11_Rise_PlateBlank_2.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_B11_Rise_PlateBlank_2.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_B11_Rise_PlateBlank_2.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_B11_Rise_PlateBlank_2.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_B11_Rise_PlateBlank_2.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_B11_Rise_PlateBlank_2.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_B11_Rise_PlateBlank_2.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_2.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_2.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_C11_Rise_PlateBlank_3.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_C11_Rise_PlateBlank_3.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_C11_Rise_PlateBlank_3.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_C11_Rise_PlateBlank_3.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_C11_Rise_PlateBlank_3.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_C11_Rise_PlateBlank_3.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_C11_Rise_PlateBlank_3.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_C11_Rise_PlateBlank_3.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_3.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_3.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_D11_Rise_PlateBlank_4.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_D11_Rise_PlateBlank_4.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_D11_Rise_PlateBlank_4.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_D11_Rise_PlateBlank_4.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_D11_Rise_PlateBlank_4.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_D11_Rise_PlateBlank_4.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_D11_Rise_PlateBlank_4.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_D11_Rise_PlateBlank_4.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_4.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_4.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_E11_Rise_PlateBlank_5.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_E11_Rise_PlateBlank_5.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_E11_Rise_PlateBlank_5.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_E11_Rise_PlateBlank_5.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_E11_Rise_PlateBlank_5.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_E11_Rise_PlateBlank_5.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_E11_Rise_PlateBlank_5.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_E11_Rise_PlateBlank_5.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_5.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_5.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_F11_Rise_PlateBlank_6.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_F11_Rise_PlateBlank_6.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_F11_Rise_PlateBlank_6.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_F11_Rise_PlateBlank_6.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_F11_Rise_PlateBlank_6.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_F11_Rise_PlateBlank_6.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_F11_Rise_PlateBlank_6.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_F11_Rise_PlateBlank_6.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_6.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_6.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_G11_Rise_PlateBlank_7.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_G11_Rise_PlateBlank_7.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_G11_Rise_PlateBlank_7.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_G11_Rise_PlateBlank_7.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_G11_Rise_PlateBlank_7.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_G11_Rise_PlateBlank_7.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_G11_Rise_PlateBlank_7.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_G11_Rise_PlateBlank_7.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_7.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_7.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_H11_Rise_PlateBlank_8.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_H11_Rise_PlateBlank_8.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_H11_Rise_PlateBlank_8.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_H11_Rise_PlateBlank_8.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_H11_Rise_PlateBlank_8.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_H11_Rise_PlateBlank_8.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_H11_Rise_PlateBlank_8.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_H11_Rise_PlateBlank_8.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_8.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_8.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_9.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_9.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_10.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_10.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_11.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_11.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_12.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_12.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_13.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_13.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_14.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_14.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_15.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_15.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_16.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_16.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_17.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_17.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_18.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_18.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_19.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_19.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_20.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_20.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_21.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_21.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_22.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_22.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_23.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_23.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_24.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_24.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_25.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_25.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_26.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_26.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_27.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_27.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_28.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_28.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_29.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_29.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_30.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_30.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_31.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_31.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_32.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_32.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_33.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_33.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_6mix_34.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\RISEPLUS_QC_POOL_34.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_E7_364171280.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_A9_364171292.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_F9_364171301.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_B9_364172462.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_D9_364172463.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_G10_364172465.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_E10_364172467.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_D10_364172468.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_C10_364172469.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_A10_364172470.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_C9_364172471.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_E9_364172472.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_G9_364172473.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_F10_364172475.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_B10_364172478.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_C1_364172672.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_E1_364172673.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_G1_364172674.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_H2_364172675.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_F2_364172676.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_A1_364172679.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_B1_364172680.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_D1_364172681.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_F1_364172682.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_H1_364172683.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_G2_364172684.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_D2_364172685.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_B2_364172686.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_D3_364172687.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_C3_364172688.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_G3_364172689.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_B3_364172690.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_E4_364172691.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_G4_364172692.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_E2_364172693.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_C2_364172694.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_A2_364172695.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_E3_364172696.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_F3_364172697.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_H3_364172698.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_F4_364172700.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_D4_364172701.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_B4_364172702.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_D5_364172703.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_F5_364172704.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_H5_364172705.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_B5_364172706.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_G6_364172707.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_F6_364172708.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_H4_364172709.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_C4_364172710.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_A4_364172711.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_E5_364172712.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_G5_364172713.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_C5_364172714.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_A5_364172715.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_H6_364172716.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_D6_364172717.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_B6_364172718.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_H7_364172719.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_F7_364172720.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_D7_364172721.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_B7_364172722.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_H8_364172723.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_F8_364172724.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_E6_364172725.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_C6_364172726.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_A6_364172727.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_G7_364172728.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_E7_364172729.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_C7_364172730.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_A7_364172731.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_G8_364172732.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_D8_364172733.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_B8_364172734.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_B9_364172735.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_C9_364172736.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_E9_364172737.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_G9_364172738.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_E8_364172741.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_C8_364172742.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_A8_364172743.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_D9_364172745.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_F9_364172746.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_H9_364172747.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_D8_364172749.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_F10_364172750.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_E10_364172751.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_D9_364172752.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_C10_364172754.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_B9_364172755.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_E8_364172757.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_F9_364172758.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_E9_364172759.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_D10_364172761.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_C9_364172762.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_B10_364172764.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_B1_364172957.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_D1_364172958.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_F1_364172959.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_H1_364172960.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_G2_364172961.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_E2_364172962.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_C2_364172963.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_A2_364172964.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_A1_364172965.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_C1_364172966.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_E1_364172967.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_G1_364172968.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_H2_364172969.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_F2_364172970.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_D2_364172971.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_B2_364172972.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_B3_364172973.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_D3_364172974.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_F3_364172975.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_H3_364172976.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_G4_364172977.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_E4_364172978.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_C4_364172979.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_A4_364172980.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_A3_364172981.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_C3_364172982.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_E3_364172983.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_G3_364172984.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_H4_364172985.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_F4_364172986.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_D4_364172987.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_B4_364172988.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_D5_364172989.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_B5_364172990.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_F5_364172991.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_H5_364172992.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_H7_364172993.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_H8_364172994.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_H10_364172995.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_A5_364172997.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_C5_364172998.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_E5_364172999.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_G5_364173000.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_H6_364173001.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_G6_364173002.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_H9_364173003.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_A6_364173008.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_E6_364173009.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_C6_364173010.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_A7_364173011.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_A9_364173012.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_F6_364173017.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_D6_364173018.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_B6_364173019.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_A8_364173020.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_B8_364173022.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_C7_364173023.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_F7_364173024.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_G8_364173025.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_G10_364173026.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_C8_364173028.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_A10_364173029.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_B7_364173030.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_D7_364173031.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_G7_364173033.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_G9_364173034.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P2_F8_364173036.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_B1_364173053.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_D1_364173054.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_F1_364173055.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_H1_364173056.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_D2_364173057.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_E2_364173058.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_F2_364173059.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_H2_364173060.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_A1_364173061.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_C1_364173062.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_E1_364173063.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_G1_364173064.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_C2_364173066.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_B2_364173067.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_G2_364173068.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_D3_364173069.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_B3_364173070.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_A3_364173071.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_G3_364173072.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_H4_364173073.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_F4_364173074.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_D4_364173075.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_B4_364173076.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_A2_364173077.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_C3_364173078.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_E3_364173079.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_F3_364173080.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_H3_364173081.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_G4_364173082.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_E4_364173083.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_C4_364173084.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_H5_364173085.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_F5_364173086.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_D5_364173087.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_G6_364173088.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_E6_364173089.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_D6_364173090.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_C6_364173091.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_B6_364173092.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_A4_364173093.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_G5_364173094.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_E5_364173095.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_H6_364173096.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_F6_364173097.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_C5_364173098.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_B5_364173100.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_A6_364173101.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_A7_364173102.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_C7_364173103.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_F7_364173104.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_H7_364173105.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_F8_364173107.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_D8_364173108.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_A5_364173109.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_B7_364173110.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_D7_364173111.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_E7_364173112.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_G7_364173113.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_H8_364173114.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_G8_364173115.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_E8_364173116.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_B8_364173117.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_H9_364173118.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_A9_364173124.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P5_C8_364173125.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_D10_364294115.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_A10_364301736.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_C10_364301750.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_B10_364301751.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_B10_364302302.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_D10_364302303.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_F10_364302304.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_A10_364302310.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_C10_364302311.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_E10_364302312.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_B1_364302322.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_D1_364302323.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_F1_364302324.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_H1_364302325.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_A1_364302330.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_C1_364302331.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_E1_364302332.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_G1_364302333.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_G2_364302334.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_E2_364302335.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_C2_364302336.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_A2_364302337.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_G3_364302338.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_E3_364302339.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_C3_364302340.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_A3_364302341.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_H2_364302342.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_F2_364302343.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_D2_364302344.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_B2_364302345.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_H3_364302346.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_F3_364302347.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_D3_364302348.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_B3_364302349.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_G4_364302350.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_E4_364302351.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_C4_364302352.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_A4_364302353.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_G5_364302354.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_E5_364302355.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_C5_364302356.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_A5_364302357.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_F4_364302358.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_H4_364302359.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_D4_364302360.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_B4_364302361.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_H5_364302362.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_F5_364302363.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_D5_364302364.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_B5_364302365.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_G6_364302366.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_E6_364302367.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_C6_364302368.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_A6_364302369.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_D7_364302370.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_C7_364302371.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_A7_364302372.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_H7_364302373.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_H6_364302374.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_F6_364302375.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_D6_364302376.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_B6_364302377.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_B7_364302378.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_E7_364302379.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_F7_364302380.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_G7_364302381.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_G8_364302382.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_E8_364302383.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_C8_364302384.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_A8_364302385.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_F9_364302386.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_D9_364302387.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_A9_364302388.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_H9_364302389.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_H8_364302390.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_F8_364302391.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_D8_364302392.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_B8_364302393.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_C9_364302394.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_B9_364302395.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_E9_364302396.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P9_G9_364302397.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_A9_364302398.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_A10_364302399.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_G10_364302400.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_B9_364302406.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_B10_364302407.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_F10_364302408.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_H10_364302409.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_B1_364302418.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_C1_364302419.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_F1_364302420.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_H1_364302421.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_A1_364302426.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_D1_364302427.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_E1_364302428.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_G1_364302429.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_G2_364302430.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_E2_364302431.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_C2_364302432.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_A2_364302433.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_G3_364302434.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_E3_364302435.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_C3_364302436.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_A3_364302437.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_H2_364302438.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_F2_364302439.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_D2_364302440.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_B2_364302441.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_H3_364302442.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_F3_364302443.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_D3_364302444.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_B3_364302445.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_B4_364302446.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_D4_364302447.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_F4_364302448.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_H4_364302449.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_G5_364302450.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_E5_364302451.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_C5_364302452.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_A5_364302453.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_A4_364302454.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_C4_364302455.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_E4_364302456.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_G4_364302457.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_H5_364302458.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_F5_364302459.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_D5_364302460.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_B5_364302461.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_C6_364302462.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_D6_364302463.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_F6_364302464.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_H6_364302465.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_G7_364302466.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_E7_364302467.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_C7_364302468.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_A7_364302469.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_B6_364302470.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_A6_364302471.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_E6_364302472.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_G6_364302473.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_H7_364302474.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_F7_364302475.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_D7_364302476.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_B7_364302477.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_C8_364302478.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_D8_364302479.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_F8_364302480.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_H8_364302481.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_G9_364302482.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_E9_364302483.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_C9_364302484.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_A9_364302485.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_B8_364302486.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_A8_364302487.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_E8_364302488.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_G8_364302489.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_H9_364302490.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_F9_364302491.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_D9_364302492.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P6_B9_364302493.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_F10_364302495.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_D10_364302499.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_E10_364302506.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_C10_364302509.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_B10_364302510.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_A1_364302513.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_C1_364302514.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_E1_364302515.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_F1_364302516.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_G2_364302517.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P3_A10_364302520.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_B1_364302522.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_D1_364302523.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_F2_364302524.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_G1_364302525.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_H2_364302526.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_D2_364302527.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_B2_364302528.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_C3_364302529.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_B3_364302530.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_F3_364302531.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_H3_364302532.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_B4_364302533.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_H1_364302534.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_E2_364302535.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_C2_364302536.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_A2_364302537.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_E3_364302538.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_D3_364302539.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_G3_364302540.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_A3_364302541.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_E4_364302542.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_F4_364302543.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_H4_364302544.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_H5_364302545.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_F5_364302546.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_D5_364302547.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_B5_364302548.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_A5_364302549.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_C4_364302550.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_D4_364302551.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_G4_364302552.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_A4_364302553.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_G5_364302554.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_E5_364302555.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_C5_364302556.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_H6_364302557.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_F6_364302558.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_D6_364302559.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_B6_364302560.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_B7_364302561.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_A7_364302562.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_E7_364302563.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_G7_364302564.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_H8_364302565.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_G6_364302566.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_E6_364302567.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_C6_364302568.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_A6_364302569.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_C7_364302570.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_D7_364302571.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_F7_364302572.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_H7_364302573.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_F8_364302574.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_G9_364302575.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_E10_364302576.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_E9_364302577.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_D9_364302578.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_C9_364302579.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_C10_364302580.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_A8_364302581.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_G8_364302582.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_H9_364302583.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_F9_364302584.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_E8_364302585.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_D8_364302586.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_C8_364302587.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P4_B8_364302588.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_B4_364306624.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_B6_364306625.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_D1_364306626.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_C3_364306628.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_B5_364306631.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_A1_364306632.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_B3_364306633.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_C1_364306634.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_H2_364306637.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_A2_364306639.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_A4_364306640.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_B2_364306641.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_C2_364306642.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_B10_364306643.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_A3_364306647.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_B9_364306648.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_E1_364306649.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_A8_364306650.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_F9_364306651.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_G8_364306653.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_D2_364306654.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_B8_364306655.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_D3_364306656.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_E2_364306657.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_B7_364306658.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_G6_364306660.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_G4_364306661.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_E3_364306662.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_C4_364306663.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_D4_364306664.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_E4_364306665.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_C5_364306666.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_E9_364306667.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_A10_364306670.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_A9_364306671.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_D5_364306673.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_A5_364306674.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_H1_364306675.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_G9_364306677.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_A7_364306679.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_E5_364306680.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_C6_364306681.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_D10_364306682.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_G2_364306683.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_G5_364306684.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_F3_364306686.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_F1_364306687.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_F4_364306688.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_F8_364306689.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_D6_364306690.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_F2_364306694.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_E6_364306695.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_F5_364306696.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_E8_364306697.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_G1_364306699.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_G7_364306700.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_E7_364306702.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_F6_364306703.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_F7_364306704.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_D8_364306705.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_D9_364306706.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_G3_364306708.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_C8_364306710.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_C9_364306711.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_C10_364306712.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_C7_364306713.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_D7_364306714.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_E10_364306715.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_A6_364306716.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_H6_364306876.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_B1_364306881.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_H4_364306884.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_H7_364306898.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_H9_364306903.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_H8_364306906.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_H5_364307102.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P8_H3_364307111.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_C7_364422807.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_C4_364433142.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_A4_364433143.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_D5_364433144.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_A5_364433145.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_E6_364433146.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_C6_364433147.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_A6_364433148.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_D7_364433149.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_D4_364433150.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_B4_364433151.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_E5_364433152.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_C5_364433153.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_B5_364433154.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_D6_364433155.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_B6_364433156.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_E7_364433157.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_E4_364433158.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_A3_364433159.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_B3_364433160.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_C3_364433161.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_D3_364433162.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_E3_364433163.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_A2_364433164.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_B2_364433165.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_C2_364433166.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_D2_364433167.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_E2_364433168.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_A1_364433169.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_B1_364433170.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_C1_364433171.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_D1_364433172.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_E1_364433173.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_F9_364433177.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_F8_364433178.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_F7_364433179.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_F6_364433180.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_F5_364433181.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_G9_364433182.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_F1_364433186.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_F2_364433187.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_F3_364433188.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_F4_364433189.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_G8_364433190.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_G7_364433191.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_G6_364433192.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_G5_364433193.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_G4_364433194.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_G3_364433195.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_G2_364433196.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_G1_364433197.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_H5_364433198.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_H6_364433199.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_H7_364433200.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_H8_364433201.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_H9_364433202.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_H4_364433206.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_H3_364433207.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_H2_364433208.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_H1_364433209.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_A10_364433408.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_B10_364433409.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_C10_364433411.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_A9_364433412.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_B9_364433413.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_D8_364433414.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_C8_364433415.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_B8_364433416.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_A8_364433417.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_D9_364433418.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_D10_364433419.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_C9_364433421.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_B7_364433423.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_A7_364433424.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_E8_364433425.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_E9_364433426.mzML</file>
+            <file>E:\Jasmine\Burnett\Burnett_RisePlus_Allmzml\P7_E10_364433427.mzML</file>
+        </parameter>
+        <parameter name="Advanced import" selected="true">
+            <parameter name="Scan filters" selected="false">
+                <parameter name="Scan number"/>
+                <parameter name="Base Filtering Integer"/>
+                <parameter name="Retention time"/>
+                <parameter name="Mobility"/>
+                <parameter name="MS level filter" selected="All MS levels">1</parameter>
+                <parameter name="Scan definition"/>
+                <parameter name="Polarity">Any</parameter>
+                <parameter name="Spectrum type">ANY</parameter>
+            </parameter>
+            <parameter name="Crop MS1 m/z" selected="false"/>
+            <parameter name="MS1 detector (Advanced)" selected="true" selected_item="Factor of lowest signal">
+                <module name="Factor of lowest signal">
+                    <parameter name="Noise factor">3.5</parameter>
+                </module>
+                <module name="Auto">
+                    <parameter name="Noise level">100000.0</parameter>
+                </module>
+                <module name="Centroid">
+                    <parameter name="Noise level">100.0</parameter>
+                </module>
+                <module name="Exact mass">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Local maxima">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Recursive threshold">
+                    <parameter name="Noise level"/>
+                    <parameter name="Min m/z peak width"/>
+                    <parameter name="Max m/z peak width"/>
+                </module>
+                <module name="Wavelet transform">
+                    <parameter name="Noise level"/>
+                    <parameter name="Scale level"/>
+                    <parameter name="Wavelet window size (%)"/>
+                </module>
+            </parameter>
+            <parameter name="MS2 detector (Advanced)" selected="true" selected_item="Factor of lowest signal">
+                <module name="Factor of lowest signal">
+                    <parameter name="Noise factor">2.5</parameter>
+                </module>
+                <module name="Auto">
+                    <parameter name="Noise level">100000.0</parameter>
+                </module>
+                <module name="Centroid">
+                    <parameter name="Noise level">100.0</parameter>
+                </module>
+                <module name="Exact mass">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Local maxima">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Recursive threshold">
+                    <parameter name="Noise level"/>
+                    <parameter name="Min m/z peak width"/>
+                    <parameter name="Max m/z peak width"/>
+                </module>
+                <module name="Wavelet transform">
+                    <parameter name="Noise level"/>
+                    <parameter name="Scale level"/>
+                    <parameter name="Wavelet window size (%)"/>
+                </module>
+            </parameter>
+            <parameter name="Denormalize fragment scans (traps)">false</parameter>
+        </parameter>
+        <parameter name="Metadata file" selected="false"/>
+        <parameter name="Spectral library files">
+            <file>C:\Users\Dorrestein Lab\Downloads\ALL_GNPS.mgf</file>
+        </parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_massdetection.MassDetectionModule" parameter_version="1">
+        <parameter name="Raw data files" type="BATCH_LAST_FILES"/>
+        <parameter name="Scan filters" selected="true">
+            <parameter name="Scan number"/>
+            <parameter name="Base Filtering Integer"/>
+            <parameter name="Retention time"/>
+            <parameter name="Mobility"/>
+            <parameter name="MS level filter" selected="MS1, level = 1">1</parameter>
+            <parameter name="Scan definition"/>
+            <parameter name="Polarity">Any</parameter>
+            <parameter name="Spectrum type">ANY</parameter>
+        </parameter>
+        <parameter name="Scan types (IMS)">All scan types</parameter>
+        <parameter name="Denormalize fragment scans (traps)">false</parameter>
+        <parameter name="Mass detector" selected_item="Auto">
+            <module name="Factor of lowest signal">
+                <parameter name="Noise factor">5.0</parameter>
+            </module>
+            <module name="Auto">
+                <parameter name="Noise level">200000.0</parameter>
+            </module>
+            <module name="Centroid">
+                <parameter name="Noise level"/>
+            </module>
+            <module name="Exact mass">
+                <parameter name="Noise level"/>
+            </module>
+            <module name="Local maxima">
+                <parameter name="Noise level"/>
+            </module>
+            <module name="Recursive threshold">
+                <parameter name="Noise level"/>
+                <parameter name="Min m/z peak width"/>
+                <parameter name="Max m/z peak width"/>
+            </module>
+            <module name="Wavelet transform">
+                <parameter name="Noise level"/>
+                <parameter name="Scale level"/>
+                <parameter name="Wavelet window size (%)"/>
+            </module>
+        </parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_massdetection.MassDetectionModule" parameter_version="1">
+        <parameter name="Raw data files" type="BATCH_LAST_FILES"/>
+        <parameter name="Scan filters" selected="true">
+            <parameter name="Scan number"/>
+            <parameter name="Base Filtering Integer"/>
+            <parameter name="Retention time"/>
+            <parameter name="Mobility"/>
+            <parameter name="MS level filter" selected="MS2, level = 2">1</parameter>
+            <parameter name="Scan definition"/>
+            <parameter name="Polarity">Any</parameter>
+            <parameter name="Spectrum type">ANY</parameter>
+        </parameter>
+        <parameter name="Scan types (IMS)">All scan types</parameter>
+        <parameter name="Denormalize fragment scans (traps)">false</parameter>
+        <parameter name="Mass detector" selected_item="Auto">
+            <module name="Factor of lowest signal">
+                <parameter name="Noise factor">2.5</parameter>
+            </module>
+            <module name="Auto">
+                <parameter name="Noise level">1000.0</parameter>
+            </module>
+            <module name="Centroid">
+                <parameter name="Noise level">1000.0</parameter>
+            </module>
+            <module name="Exact mass">
+                <parameter name="Noise level"/>
+            </module>
+            <module name="Local maxima">
+                <parameter name="Noise level"/>
+            </module>
+            <module name="Recursive threshold">
+                <parameter name="Noise level"/>
+                <parameter name="Min m/z peak width"/>
+                <parameter name="Max m/z peak width"/>
+            </module>
+            <module name="Wavelet transform">
+                <parameter name="Noise level"/>
+                <parameter name="Scale level"/>
+                <parameter name="Wavelet window size (%)"/>
+            </module>
+        </parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_adapchromatogrambuilder.ModularADAPChromatogramBuilderModule" parameter_version="1">
+        <parameter name="Raw data files" type="BATCH_LAST_FILES"/>
+        <parameter name="Scan filters" selected="true">
+            <parameter name="Scan number"/>
+            <parameter name="Base Filtering Integer"/>
+            <parameter name="Retention time">
+                <min>0.02</min>
+                <max>14.0</max>
+            </parameter>
+            <parameter name="Mobility"/>
+            <parameter name="MS level filter" selected="MS1, level = 1">1</parameter>
+            <parameter name="Scan definition"/>
+            <parameter name="Polarity">Any</parameter>
+            <parameter name="Spectrum type">ANY</parameter>
+        </parameter>
+        <parameter name="Minimum consecutive scans">3</parameter>
+        <parameter name="Minimum intensity for consecutive scans">1000.0</parameter>
+        <parameter name="Minimum absolute height">500.0</parameter>
+        <parameter name="m/z tolerance (scan-to-scan)">
+            <absolutetolerance>0.002</absolutetolerance>
+            <ppmtolerance>10.0</ppmtolerance>
+        </parameter>
+        <parameter name="Suffix">chroms</parameter>
+        <parameter name="Allow single scan chromatograms"/>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_chromatogramdeconvolution.minimumsearch.MinimumSearchFeatureResolverModule" parameter_version="2">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Suffix">r</parameter>
+        <parameter name="Original feature list">REMOVE</parameter>
+        <parameter name="MS/MS scan pairing" selected="true">
+            <parameter name="MS1 to MS2 precursor tolerance (m/z)">
+                <absolutetolerance>0.01</absolutetolerance>
+                <ppmtolerance>20.0</ppmtolerance>
+            </parameter>
+            <parameter name="Retention time filter" selected="Use feature edges" unit="MINUTES">0.2</parameter>
+            <parameter name="Minimum relative feature height" selected="true">0.25</parameter>
+            <parameter name="Minimum required signals" selected="true">1</parameter>
+            <parameter name="Limit by ion mobility edges">false</parameter>
+            <parameter name="Merge MS/MS spectra (TIMS)">false</parameter>
+            <parameter name="Minimum signal intensity (absolute, TIMS)" selected="false">250.0</parameter>
+            <parameter name="Minimum signal intensity (relative, TIMS)" selected="true">0.01</parameter>
+        </parameter>
+        <parameter name="Dimension">Retention time</parameter>
+        <parameter name="Chromatographic threshold">0.9</parameter>
+        <parameter name="Minimum search range RT/Mobility (absolute)">0.2</parameter>
+        <parameter name="Minimum relative height">0.01</parameter>
+        <parameter name="Minimum absolute height">1000.0</parameter>
+        <parameter name="Min ratio of peak top/edge">2.0</parameter>
+        <parameter name="Peak duration range (min/mobility)">
+            <min>0.01</min>
+            <max>0.5</max>
+        </parameter>
+        <parameter name="Minimum scans (data points)">3</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.filter_isotopegrouper.IsotopeGrouperModule" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Name suffix">deiso</parameter>
+        <parameter name="m/z tolerance (intra-sample)">
+            <absolutetolerance>0.002</absolutetolerance>
+            <ppmtolerance>10.0</ppmtolerance>
+        </parameter>
+        <parameter name="Retention time tolerance" unit="MINUTES">0.05</parameter>
+        <parameter name="Mobility tolerance" selected="false">0.008</parameter>
+        <parameter name="Monotonic shape">true</parameter>
+        <parameter name="Maximum charge">2</parameter>
+        <parameter name="Representative isotope">Most intense</parameter>
+        <parameter name="Never remove feature with MS2">true</parameter>
+        <parameter name="Original feature list">PROCESS IN PLACE</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.filter_isotopefinder.IsotopeFinderModule" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Chemical elements">H,C,N,O,S</parameter>
+        <parameter name="m/z tolerance (feature-to-scan)">
+            <absolutetolerance>0.002</absolutetolerance>
+            <ppmtolerance>10.0</ppmtolerance>
+        </parameter>
+        <parameter name="Maximum charge of isotope m/z">3</parameter>
+        <parameter name="Search in scans">SINGLE MOST INTENSE</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.align_join.JoinAlignerModule" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Feature list name">Aligned feature list</parameter>
+        <parameter name="m/z tolerance (sample-to-sample)">
+            <absolutetolerance>0.002</absolutetolerance>
+            <ppmtolerance>10.0</ppmtolerance>
+        </parameter>
+        <parameter name="Weight for m/z">3.0</parameter>
+        <parameter name="Retention time tolerance" unit="MINUTES">0.2</parameter>
+        <parameter name="Weight for RT">1.0</parameter>
+        <parameter name="Mobility tolerance" selected="false">0.01</parameter>
+        <parameter name="Mobility weight">1.0</parameter>
+        <parameter name="Require same charge state">false</parameter>
+        <parameter name="Require same ID">false</parameter>
+        <parameter name="Compare isotope pattern" selected="false">
+            <parameter name="Isotope m/z tolerance">
+                <absolutetolerance>0.001</absolutetolerance>
+                <ppmtolerance>5.0</ppmtolerance>
+            </parameter>
+            <parameter name="Minimum absolute intensity">1000.0</parameter>
+            <parameter name="Minimum score">0.5</parameter>
+        </parameter>
+        <parameter name="Compare spectra similarity" selected="false">
+            <parameter name="Spectral m/z tolerance">
+                <absolutetolerance>0.002</absolutetolerance>
+                <ppmtolerance>10.0</ppmtolerance>
+            </parameter>
+            <parameter name="MS level">2</parameter>
+            <parameter name="Compare spectra similarity" selected_item="Weighted cosine similarity">
+                <module name="Weighted cosine similarity">
+                    <parameter name="Weights">MassBank (mz^2 * I^0.5)</parameter>
+                    <parameter name="Minimum  cos similarity">0.7</parameter>
+                    <parameter name="Handle unmatched signals">KEEP ALL AND MATCH TO ZERO</parameter>
+                </module>
+                <module name="Composite cosine identity (e.g., GC-EI-MS; similar to NIST search)">
+                    <parameter name="Weights">MassBank (mz^2 * I^0.5)</parameter>
+                    <parameter name="Minimum  cos similarity">0.7</parameter>
+                    <parameter name="Handle unmatched signals">KEEP ALL AND MATCH TO ZERO</parameter>
+                </module>
+            </parameter>
+        </parameter>
+        <parameter name="Original feature list">REMOVE</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.gapfill_peakfinder.multithreaded.MultiThreadPeakFinderModule" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Name suffix">gap-filled</parameter>
+        <parameter name="Intensity tolerance">0.2</parameter>
+        <parameter name="m/z tolerance (sample-to-sample)">
+            <absolutetolerance>0.002</absolutetolerance>
+            <ppmtolerance>10.0</ppmtolerance>
+        </parameter>
+        <parameter name="Retention time tolerance" unit="MINUTES">0.2</parameter>
+        <parameter name="Minimum scans (data points)">2</parameter>
+        <parameter name="Original feature list">PROCESS IN PLACE</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.filter_rowsfilter.RowsFilterModule" parameter_version="2">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Name suffix">13C peak</parameter>
+        <parameter name="Minimum aligned features (samples)" selected="false">
+            <abs>1</abs>
+            <rel>0.0</rel>
+        </parameter>
+        <parameter name="Minimum features in an isotope pattern" selected="false">2</parameter>
+        <parameter name="Validate 13C isotope pattern" selected="true">
+            <parameter name="m/z tolerance">
+                <absolutetolerance>0.0015</absolutetolerance>
+                <ppmtolerance>5.0</ppmtolerance>
+            </parameter>
+            <parameter name="Max charge">2</parameter>
+            <parameter name="Estimate minimum carbon">true</parameter>
+            <parameter name="Remove if 13C">true</parameter>
+            <parameter name="Exclude isotopes">O,O,O,O</parameter>
+        </parameter>
+        <parameter name="Remove redundant isotope rows">false</parameter>
+        <parameter name="m/z" selected="false"/>
+        <parameter name="Retention time" selected="true">
+            <min>0.0</min>
+            <max>8.5</max>
+        </parameter>
+        <parameter name="features duration range" selected="false">
+            <min>0.0</min>
+            <max>10.0</max>
+        </parameter>
+        <parameter name="Chromatographic FWHM" selected="false">
+            <min>0.0</min>
+            <max>1.0</max>
+        </parameter>
+        <parameter name="Charge" selected="false">
+            <min>1</min>
+            <max>2</max>
+        </parameter>
+        <parameter name="Kendrick mass defect" selected="false">
+            <parameter name="Kendrick mass defect">
+                <min>0.0</min>
+                <max>1.0</max>
+            </parameter>
+            <parameter name="Kendrick mass base"/>
+            <parameter name="Shift">0.0</parameter>
+            <parameter name="Charge">1</parameter>
+            <parameter name="Divisor">1</parameter>
+            <parameter name="Use Remainder of Kendrick mass">false</parameter>
+        </parameter>
+        <parameter name="Parameter">No parameters defined</parameter>
+        <parameter name="Only identified?">false</parameter>
+        <parameter name="Text in identity" selected="false"/>
+        <parameter name="Text in comment" selected="false"/>
+        <parameter name="Keep or remove rows">Keep rows that match all criteria</parameter>
+        <parameter name="Feature with MS2 scan">false</parameter>
+        <parameter name="Never remove feature with MS2">true</parameter>
+        <parameter name="Never remove annotated rows">false</parameter>
+        <parameter name="Reset the feature number ID">true</parameter>
+        <parameter name="Mass defect" selected="false"/>
+        <parameter name="Original feature list">PROCESS IN PLACE</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.filter_duplicatefilter.DuplicateFilterModule" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Name suffix">dup</parameter>
+        <parameter name="Filter mode">NEW AVERAGE</parameter>
+        <parameter name="m/z tolerance">
+            <absolutetolerance>0.002</absolutetolerance>
+            <ppmtolerance>10.0</ppmtolerance>
+        </parameter>
+        <parameter name="RT tolerance" unit="MINUTES">0.2</parameter>
+        <parameter name="Mobility tolerance" selected="false">0.008</parameter>
+        <parameter name="Require same identification">false</parameter>
+        <parameter name="Original feature list">REMOVE</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.io.export_features_gnps.fbmn.GnpsFbmnExportAndSubmitModule" parameter_version="2">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Filename">
+            <current_file>E:\Jasmine\Burnett\Plusrise_mzmine_1292025\Plusrize_mzmine.mgf</current_file>
+            <last_file>D:\Jasmine\Burnett_UMB_10112024_workshop\UMB_10112024.mgf</last_file>
+        </parameter>
+        <parameter name="Merge MS/MS (experimental)" selected="false">
+            <parameter name="Select spectra to merge">across samples</parameter>
+            <parameter name="m/z merge mode">most intense</parameter>
+            <parameter name="intensity merge mode">sum intensities</parameter>
+            <parameter name="Expected mass deviation">
+                <absolutetolerance>0.5</absolutetolerance>
+                <ppmtolerance>40.0</ppmtolerance>
+            </parameter>
+            <parameter name="Cosine threshold (%)">0.3</parameter>
+            <parameter name="Signal count threshold (%)">0.2</parameter>
+            <parameter name="Isolation window offset (m/z)">3.0</parameter>
+            <parameter name="Isolation window width (m/z)">6.0</parameter>
+        </parameter>
+        <parameter name="Filter rows">MS2 OR ION IDENTITY</parameter>
+        <parameter name="Feature intensity">Area</parameter>
+        <parameter name="CSV export">SIMPLE</parameter>
+        <parameter name="Submit to GNPS" selected="false">
+            <parameter name="Meta data file" selected="false"/>
+            <parameter name="Export ion identity networks">true</parameter>
+            <parameter name="Presets">HIGHRES</parameter>
+            <parameter name="Job title">20220307_SwabTrial_mzMineTrial</parameter>
+            <parameter name="Email">wendergomes@health.ucsd.edu</parameter>
+            <parameter name="Username">pwpgomes</parameter>
+            <parameter name="Password"/>
+            <parameter name="Open website">true</parameter>
+        </parameter>
+        <parameter name="Open folder">false</parameter>
+    </batchstep>
+</batch>

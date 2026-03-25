@@ -7,7 +7,8 @@ This repository contains all data and scripts associated with the manuscript **"
 ## Repository Contents
 
 ### `Figures`
-This folder contains the scripts used to generate all figures and supplementary figures in the manuscript, along with the input tables and source data for each of them.
+This folder contains the scripts used to generate the figures and supplementary figures in the manuscript, along with the input tables and source data for each of them.
+PS: Scripts used to generate Figure 4 are available at https://github.com/kinekvitne/manuscript_carnitines_library
 
 ### `Data_processing_MZmine`
 This folder contains all MZmine batch files used to pre-process the metabolomics data discussed in this manuscript. 

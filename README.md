@@ -26,7 +26,8 @@ Carnitine spectral library created for this work. This library consists of 34,22
 
 ## Citation
 
-> *(to be added upon publication)*
+Mannochio-Russo H*, Ferreira PC*, Kvitne KE, Patan A, Deleray V, Agongo J, Gouda H, Nunes WDG, Xing S, Zemlin J, van Faassen M, Reilly ER, Koo I, Patterson AD, Tsunoda S, Wang M, Siegel D, Burnett LA, Dorrestein PC.  Pan-Metabolomics Repository Mapping of the Carnitine Landscape.  bioRxiv. DOI: 10.64898/2026.03.27.714844
+https://doi.org/10.64898/2026.03.27.714844
 
 ---
 
